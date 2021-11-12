@@ -78,14 +78,13 @@ func main() {
 	arr := []string{
 		"a", "a", "a", "b", "c", "c", "b", "b", "b", "d", "d", "e", "e", "e",
 	}
-
-	arr1 := []string{"a", "a", "a", "b", "c", "c", "b", "b", "b", "d", "d", "e", "e", "e"}
-
 	sa := arrayGrouping(arr)
+
+	ce := modifCountElement(arrayGrouping(arr))
 
 	fmt.Println("isPalindrome=", h)
 	fmt.Println("primeNumber=", pn)
 	fmt.Println("grouping=", sa)
-	fmt.Println("countSomeElement=", modifCountElement(arrayGrouping(arr1)))
+	fmt.Println("countSomeElement=", ce)
 
 }
